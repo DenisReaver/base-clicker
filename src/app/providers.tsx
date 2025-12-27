@@ -8,7 +8,7 @@ import { injected, coinbaseWallet } from "wagmi/connectors";
 const queryClient = new QueryClient();
 
 const config = createConfig({
-  chains: [base],
+  chains: [0x2105],
   connectors: [
     injected({ target: "metaMask" }),
     coinbaseWallet({
