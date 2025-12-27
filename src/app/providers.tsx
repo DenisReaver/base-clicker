@@ -13,7 +13,7 @@ const config = createConfig({
     injected({ target: "metaMask" }),
     coinbaseWallet({
       appName: "Base Clicker",
-      preference: { options: "smartWalletOnly" }, // Лучше всего для Base — без газа на создание аккаунта
+      preference: { options: "all" }, // Лучше всего для Base — без газа на создание аккаунта
     }),
   ],
   transports: {
